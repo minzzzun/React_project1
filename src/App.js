@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Comp1 from './Comp1';  
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          추가 글자 여기여기
+          <Comp1 />
         </p>
         <a
           className="App-link"
