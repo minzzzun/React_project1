@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Comp1 from './Comp1';  
+import Comp2 from './Comp2';
+import Hello from './component/Hello.js';
+
+
 
 function App() {
   return (
@@ -10,7 +14,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           추가 글자 여기여기
-          <Comp1 />
+          <Comp1/>
+          <Comp2/>
+          <Hello/>
         </p>
         <a
           className="App-link"
